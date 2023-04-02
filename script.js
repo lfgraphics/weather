@@ -36,6 +36,8 @@ async function checkWeather(city) {
     }
     else if (data.weather[0].main == 'Snow') {
         document.getElementById('icon').src = 'images/snow.png'
+    }else if (data.weather[0].main == 'Haze') {
+        document.getElementById('icon').src = 'https://cdn-icons-png.flaticon.com/512/1779/1779807.png'
     }
 }
 
