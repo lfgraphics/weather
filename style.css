@@ -123,3 +123,7 @@ form {
     font-size: 28px;
     margin-top: -6px;
 }
+
+.error{
+    display: none;
+}
