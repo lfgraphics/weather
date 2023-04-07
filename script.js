@@ -37,7 +37,8 @@ async function checkWeather(city) {
 
         let img = data.weather[0].main;
 
-        document.getElementById('icon').src = `images/${img}.png`
+        document.getElementById('icon').src = `images/${img}.png`;
+        document.getElementById('icon').alt = `${img} icon`;
     }
 }
 
